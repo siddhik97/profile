@@ -3,6 +3,7 @@
     <head>
         <title>Siddhi Kotian - Profile</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Tajawal:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,6 +12,7 @@
     <body>
         <div class = "container">
             <div class = "row">
+                <div class="col"></div>
                 <div class = "col-3">
                     <div class="card h-100 ignore-right-border">
                         <img class="card-img-top rounded-circle shadow" src="profilepic.jpg" alt="Card image cap">
@@ -29,16 +31,28 @@
                         </div>
                     </div>
                 </div>
-                <div class = "col-5">
+                <div class = "col-2">
                     <div class="card h-100 ignore-left-border">
-                        <div class = "card-body">
-                            <h5 class="card-title1">Information</h5><hr />
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class = "card-body padding0">
+                            <div class="stats">
+                                <p id="repos">5</p>
+                                <p>Repositories</p>
+                            </div>
+                            <div class = "stats middle">
+                                <p id="followers">2</p>
+                                <p>Followers</p>
+                            </div>
+                            <div class="stats">  
+                                <p id="following">10</p>
+                                <p>Following</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col"></div>
             </div>  
         </div>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
