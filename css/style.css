@@ -3,25 +3,27 @@
     padding-right: 0% ;
 }
 
+.row{
+    margin-top: 5%;
+}
 
 .ignore-left-border{
-    border: 2px solid #4e4e4e;
+    border: 2px solid #9c9c9c;
     border-radius: 0px;
-    border-left: 0px;
+    border-left: 2px solid grey;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
+    background-color: whitesmoke;
     /* background-color: rgb(90, 90, 90); */
 }
 
 .ignore-right-border{
-    border: 2px solid #4e4e4e;
+    border: 2px solid #9c9c9c;
     border-radius: 0px;
     border-right: 0px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-background-image: linear-gradient(180deg, rgb(32 210 110), rgb(103 103 103), rgb(0 0 0), rgb(29 28 28), rgb(0 0 0));
-    background-color: rgb(16 16 16 / 83%);
-
+    background-image: linear-gradient(180deg, rgb(32 210 110), rgb(103 103 103), rgb(0 0 0), rgb(0 0 0), rgb(0 0 0));
 }
 
 .card-img-top{
@@ -51,4 +53,26 @@ background-image: linear-gradient(180deg, rgb(32 210 110), rgb(103 103 103), rgb
 .icon{
     font-size: 150%;
     color: #fffff5;
+}
+
+.stats{
+    text-align: center;
+    padding: 15% 0;
+}
+
+.middle{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.padding0{
+    padding: 0;
+}
+
+.stats > p{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 900 !important;
+    font-size: 25px !important;
+    padding: 0;
+    margin: 0;
 }
