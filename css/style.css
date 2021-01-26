@@ -1,10 +1,19 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
 .row > *{
     padding-left: 0% ;
     padding-right: 0% ;
 }
 
 body{
-    background-image: url("../images/background.jpg");
+    background-image: linear-gradient(to right, #da7b93, #2e151b);
+}
+
+.card{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5)!important
 }
 
 .centered {
@@ -15,22 +24,23 @@ body{
   }
 
 .ignore-left-border{
-    border: 2px solid #9c9c9c;
+    border: 1px solid #391c23;
     border-radius: 0px;
-    border-left: 2px solid grey;
+    border-left: 1px solid #391c23;
     border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    background-color: whitesmoke;
+    border-bottom-right-radius: 7px; 
+    background-color: #c1c8e4;
     /* background-color: rgb(90, 90, 90); */
 }
 
 .ignore-right-border{
-    border: 2px solid #9c9c9c;
+    border: 1px solid #391c23;
     border-radius: 0px;
     border-right: 0px;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    background-image: linear-gradient(180deg, rgb(32 210 110), rgb(103 103 103), rgb(0 0 0), rgb(0 0 0), rgb(0 0 0));
+    background: #1b3333;
+    /* background-image: linear-gradient(180deg, rgb(32 210 110), rgb(103 103 103), rgb(0 0 0), rgb(0 0 0), rgb(0 0 0)); */
 }
 
 .card-img-top{
@@ -39,11 +49,11 @@ body{
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #8e8690ad;
+    border: 2px solid #162929;
 }
 
 .shadow{
-    box-shadow:  0 .5rem 1rem rgba(182, 190, 201, 0.3)!important
+    box-shadow:  0 .5rem 1rem rgba(0, 0, 0, 0.4)!important;
 }
 
 .card-title{
@@ -68,8 +78,8 @@ body{
 }
 
 .middle{
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
+    border-top: 3px solid #391c23;
+    border-bottom: 3px solid #391c23;
 }
 
 .padding0{
